@@ -1,0 +1,2 @@
+1、进入项目下载依赖包   cnpm install
+2、cnpm run dev 启动项目

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var obj={
+				'{"regName":"aaa","regPassword":"123456"}':"llr"
+			}
+			for(var attr in obj){
+				console.log(typeof JSON.parse(attr))
+			}
+			var userObj=JSON.parse(attr)
+			userObj={"regName":"aaa","regPassword":"123456"}
+		</script>
+	</body>
+</html>
